@@ -1,0 +1,35 @@
+//install angular cli - version optional
+sudo npm install -g @angular/cli@6.0.7
+
+ng --version
+
+//cd app_folder
+ng new alurapic //create the project
+
+//init the server
+ng serve
+ng serve --open //open the browser
+
+
+//if you fond an error this can fix that (ERROR in node_modules/rxjs)
+npm install rxjs@6.0.0 --save
+
+
+//install and add bootstrap to the project
+npm install bootstrap@4.1.1
+
+
+//to install and run the api example (/api)
+npm install
+npm start 
+//localhost:3000/flavio/photos
+//localhost:3000/almeida/photos
+
+
+//genrate a angular component
+ng generate component photos/photo-list
+
+
+//generate module for errors - for example 404
+ng generate module errors
+ng generate component errors/not-found
